@@ -1,2 +1,501 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="game_project.CollisionDetection.ManualColliderBounds" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>CollisionDetection\ManualColliderBounds.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="game_project.CollisionDetection.SpriteColliderBounds" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>CollisionDetection\SpriteColliderBounds.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="game_project.CollisionResponse.EnemyCollisionResponse" Collapsed="true">
+    <Position X="16.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAgAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\EnemyCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.InvisibleBlockCollisionResponse" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\InvisibleBlockCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.ItemCollisionResponse" Collapsed="true">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAEAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\ItemCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.LinkCollisionResponse" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\LinkCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.MovableCollisionResponse" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAIAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\MovableCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.RigidCollisionResponse" Collapsed="true">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\RigidCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.StairsCollisionResponse" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAABAAI=</HashCode>
+      <FileName>CollisionResponse\StairsCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.CollisionResponse.WallCollisionResponse" Collapsed="true">
+    <Position X="15" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\WallCollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.CollisionResponse" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAAACAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\CollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.BaseCollisionResponse" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CollisionResponse\CollisionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Controllers.Input" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="game_project.Controllers.Input.Inputs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\Input.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAEIwABAAgAEAAAgAACAAIgAABAAAAAIAAgAAAAI=</HashCode>
+      <FileName>Controllers\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Controllers.KeyboardController" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQGAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\KeyboardController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.BehaviorScript">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Components\BehaviorScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.Collider">
+    <Position X="2.75" Y="9" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAEgAAAIAAhABAASQAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Components\Collider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.Sprite">
+    <Position X="7.25" Y="9" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAJAgAAAABAAAAAABAEAAAAIAAACAAAIAA=</HashCode>
+      <FileName>ECS\Components\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.ManualSprite" Collapsed="true">
+    <Position X="7.5" Y="12.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Components\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.RectangleSprite" Collapsed="true">
+    <Position X="7.5" Y="13.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAIAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Components\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.Text">
+    <Position X="5.25" Y="9" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>iQYAAAAAAACAAgACAAAAAAACAAAEABCAAAAAEAkAAAA=</HashCode>
+      <FileName>ECS\Components\Text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Components.Transform">
+    <Position X="9.75" Y="9" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAgACAEAAAkAAAAwCEYAECFAAAAASAIEAEIAAAAAA=</HashCode>
+      <FileName>ECS\Components\Transform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Systems.BaseSystem&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACAAAAAAAABAAAAAAAAAEBAAAA=</HashCode>
+      <FileName>ECS\Systems\BaseSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Systems.BehaviorScriptSystem" Collapsed="true">
+    <Position X="0.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Systems\BehaviorScriptSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Systems.ColliderSystem" Collapsed="true">
+    <Position X="5.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAgQAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Systems\ColliderSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Colliders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="game_project.ECS.Systems.SpriteSystem" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Systems\SpriteSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Systems.TextSystem" Collapsed="true">
+    <Position X="9.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Systems\TextSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Systems.TransformSystem" Collapsed="true">
+    <Position X="3" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECS\Systems\TransformSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Component" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAA=</HashCode>
+      <FileName>ECS\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.ECS.Entity" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIgAAAAASABAAAAABEAAAEAAAABAAAAAA=</HashCode>
+      <FileName>ECS\Entity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="components" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="game_project.ECS.Scene" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="game_project.ECS.Scene.Layers" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ECS\Scene.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAAAAAABAABAQAAAAIAUAAAAAABABAAAA=</HashCode>
+      <FileName>ECS\Scene.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="entities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="game_project.GameObjects.Items.Item" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAACAAAAAAAACAAAAACAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.GameObjects.Link.Link" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Link\Link.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.GameObjects.Link.LinkBehavior" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAWACwgBAgAiAAgAAAEEAAAAAGUgABgABEAABQAAECE=</HashCode>
+      <FileName>GameObjects\Link\LinkBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.GameObjects.Link.LinkHealthManagement" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAg=</HashCode>
+      <FileName>GameObjects\Link\LinkHealthManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Levels.GameStateManager" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Levels\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Sounds.Sound" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="game_project.Sounds.Sound.SoundEffects" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sounds\Sound.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QCQAAACAAEAAIAAAAAAAAAgAAABAAAAAQAgCAAAAAAA=</HashCode>
+      <FileName>Sounds\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Sprites.Texture2DStorage" Collapsed="true">
+    <Position X="13.75" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAIAAAAAAAAAAAAQAQAQAQAQAAAAADAAASIAg=</HashCode>
+      <FileName>Sprites\Texture2DStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Sprites.Sprites.BasicSprite" Collapsed="true">
+    <Position X="14" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACQAAEAAgAQAAAAAAAgAAAABAAAAAAAAAQAAAQgAAAA=</HashCode>
+      <FileName>Sprites\BasicSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Content.Sprites.EnemySpriteFrames" Collapsed="true">
+    <Position X="18" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Sprites\SpriteFrames\EnemySpriteFrames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Content.Sprites.ItemSpriteFrames" Collapsed="true">
+    <Position X="16.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Sprites\SpriteFrames\ItemSpriteFrames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Content.Sprites.LinkSpriteFrames" Collapsed="true">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Sprites\SpriteFrames\LinkSpriteFrames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.Content.Sprites.SpriteFactories.EnemySpriteFactory" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.75" />
+    <AssociationLine Name="enemySpriteFrames" Type="game_project.Content.Sprites.EnemySpriteFrames" FixedFromPoint="true">
+      <Path>
+        <Point X="18.875" Y="11.5" />
+        <Point X="18.875" Y="10.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AkAAAUAIkggQgARAAAhAgCACAgjQQAAEwERiASABCEA=</HashCode>
+      <FileName>Sprites\SpriteFactories\EnemySpriteFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="enemySpriteFrames" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game_project.Content.Sprites.SpriteFactories.ItemSpriteFactory" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACEghCgwAEAAAUAEAACJAAIAQBAAAJAQAAOCQgEAAI=</HashCode>
+      <FileName>Sprites\SpriteFactories\ItemSpriteFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="itemSpriteFrames" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game_project.Content.Sprites.SpriteFactories.LinkSpriteFactory" Collapsed="true">
+    <Position X="20" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACCAAAAAIAAACQAAAAiAAJAAAAGQAMCAAgIAQA=</HashCode>
+      <FileName>Sprites\SpriteFactories\LinkSpriteFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="linkSpriteFrames" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game_project.StatePattern.EnemyState.EnemyState" Collapsed="true">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StatePattern\EnemyState\EnemyState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pattern" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game_project.GameObjects.Enemy.EnemyStatePattern" Collapsed="true">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>GameObjects\Enemy\EnemyStatePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.GameObjects.Enemy.Enemy" Collapsed="true">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemy\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_project.App" Collapsed="true">
+    <Position X="24" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>App.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game_project.Game1">
+    <Position X="21.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAIAAAACwEABAABAAAAAAACAAgAAAAAAQAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="keyboard" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game_project.GameContent" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="game_project.GameContent.Texture" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameContent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="game_project.GameContent.Songs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameContent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="game_project.GameContent.SoundEffects" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameContent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="game_project.GameContent.Font" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameContent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAIAAAAAAAAAQAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>GameContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="game_project.CollisionDetection.IColliderBounds" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CollisionDetection\IColliderBounds.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="game_project.Drawable.IDrawable" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drawable\IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="game_project.Levels.GameStates" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAAAAAAAAAgAAAAAAAIAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="game_project.Levels.EntityStates" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
